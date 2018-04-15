@@ -45,10 +45,13 @@
     <Compile Include="Race.cs" />
     <Compile Include="EntryPoint.cs" />
     <Compile Include="User.cs" />
+    <Compile Include="Utilites.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
